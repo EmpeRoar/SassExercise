@@ -1,0 +1,13 @@
+.jbxbtn {
+    background-color: gray;
+    padding: 10px;
+    font-weight: bold;
+    border: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.jbxbtn-success {
+    @extend .jbxbtn;
+    background-color: green;
+}

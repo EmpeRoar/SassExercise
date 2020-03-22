@@ -1,3 +1,16 @@
+.jbxbtn, .jbxbtn-success {
+  background-color: gray;
+  padding: 10px;
+  font-weight: bold;
+  border: 0px;
+  margin: 0px;
+  color: white;
+}
+
+.jbxbtn-success {
+  background-color: green;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,5 +65,9 @@ footer {
 
 footer p {
   background-color: #e76b05;
+}
+
+.container {
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
