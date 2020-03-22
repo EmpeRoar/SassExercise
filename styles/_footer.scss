@@ -1,0 +1,6 @@
+footer {
+    @include flexCenter(row, green);
+    p {
+        background-color: $primaryButton;
+    }
+}

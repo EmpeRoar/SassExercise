@@ -1,0 +1,21 @@
+
+
+header {
+    //background: lightblue;
+   
+    
+    @include flexCenter(column, $primeBgColor);
+
+    p {
+        background-color: $primaryButton;
+        &:hover {
+            background-color: $primaryHoverButton;
+        }
+        &::after {
+            content: " > what is after???";
+        }
+        &::before {
+            content: "this is before < ";
+        }
+    }
+}
