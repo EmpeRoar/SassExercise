@@ -1,0 +1,42 @@
+
+.equal-height-container {
+    max-width: 900px;
+    margin: 0 auto;
+    .first {
+        background-color: #FFF;
+        padding: 20px;
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        .second-a {
+            background-color: #c0dbe2;
+            padding: 10px;
+        }
+        .second-b {
+            background-color: #cdf1c3;
+            padding: 10px;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .equal-height-container {
+        display: flex;
+        .first {
+            flex: 1;
+        }
+        .second {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            .second-a {
+                flex: 1;
+            }
+            .second-b {
+                flex: 1;
+            }
+        }
+    }
+}
+

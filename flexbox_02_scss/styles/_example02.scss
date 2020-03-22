@@ -1,0 +1,33 @@
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    // align-items: flex-start;
+    // align-items: flex-end;
+    // align-items: center;
+    // justify-content: flex-start;
+    // display: flex;
+    // justify-content: space-between;
+
+    .call-out {
+        padding: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        flex-basis: 31%;
+    }
+
+    .call-out:nth-child(1) { background-color: #c0dbe2;}
+    .call-out:nth-child(2) { background-color: #cdf1c3;}
+    .call-out:nth-child(3) { background-color: #ccb9da;}
+}
+
+
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
