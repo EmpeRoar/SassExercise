@@ -1,0 +1,41 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.container div.item {
+  height: 150px;
+  background-color: orangered;
+  overflow: hidden;
+}
+
+.container div.item .item-body {
+  height: 160px;
+}
+
+.container div.item .grader {
+  background: linear-gradient(transparent 2px, purple);
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: -110px;
+}
+
+body {
+  background-color: green;
+}
+
+/*
+
+:before {
+        content:'';
+        width:100%;
+        height:100%;    
+        background:linear-gradient(transparent 150px, purple);
+      }
+
+*/
+/*# sourceMappingURL=style.css.map */
